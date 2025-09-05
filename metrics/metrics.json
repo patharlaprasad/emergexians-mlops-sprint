@@ -1,0 +1,38 @@
+{
+    "log_reg": {
+        "best_params": {
+            "classifier__C": 0.01,
+            "classifier__penalty": "l2",
+            "classifier__solver": "lbfgs"
+        },
+        "train_accuracy": 0.5375,
+        "test_accuracy": 0.485,
+        "cv_accuracy": 0.46900000000000003,
+        "cv_f1": 0.4668701867688075
+    },
+    "random_forest": {
+        "best_params": {
+            "classifier__max_depth": null,
+            "classifier__min_samples_leaf": 2,
+            "classifier__min_samples_split": 2,
+            "classifier__n_estimators": 100
+        },
+        "train_accuracy": 1.0,
+        "test_accuracy": 0.53,
+        "cv_accuracy": 0.48200000000000004,
+        "cv_f1": 0.4837177783611515
+    },
+    "xgboost": {
+        "best_params": {
+            "classifier__colsample_bytree": 1.0,
+            "classifier__learning_rate": 0.01,
+            "classifier__max_depth": 7,
+            "classifier__n_estimators": 100,
+            "classifier__subsample": 1.0
+        },
+        "train_accuracy": 0.85625,
+        "test_accuracy": 0.52,
+        "cv_accuracy": 0.493,
+        "cv_f1": 0.500280664653736
+    }
+}
