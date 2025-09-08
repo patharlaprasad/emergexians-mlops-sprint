@@ -3,24 +3,51 @@ stages:
   train:
     cmd: python scripts/train.py
     deps:
-    - path: data/heart_disease.csv
+    - path: data/processed/cleaned.csv
       hash: md5
-      md5: 3eafe0d0dbcd5e593f0b2f8ebd447bfd
-      size: 36906
+      md5: 38debe3ba1c0f397e8a1e204a885ee4a
+      size: 37934
     - path: params.yaml
       hash: md5
-      md5: 82b20bffc6bf2dc8cc9e3e333cea5560
-      size: 645
+      md5: 5926f833fb93ece4956934347b38e574
+      size: 233
     - path: scripts/train.py
       hash: md5
-      md5: a30d66bb7d7eba71bcab1f4d1c89a33d
-      size: 3834
+      md5: 1769971a35d567e8ea6cae8be41573a4
+      size: 6178
+    params:
+      params.yaml:
+        xgboost.param_grid:
+          n_estimators:
+          - 100
+          - 200
+          - 300
+          max_depth:
+          - 3
+          - 5
+          - 7
+          learning_rate:
+          - 0.01
+          - 0.1
+          - 0.2
+          subsample:
+          - 0.8
+          - 1.0
+          colsample_bytree:
+          - 0.8
+          - 1.0
+          reg_alpha:
+          - 0
+          - 0.1
+          reg_lambda:
+          - 1
+          - 2
     outs:
-    - path: metrics.json
+    - path: artifacts/metrics.json
       hash: md5
-      md5: 7e2e461e0677029c13d8e51536259051
-      size: 108
-    - path: models/heart_disease_model.pkl
+      md5: f2a9eb82712bdfd2f21b35dea8c5233c
+      size: 124
+    - path: models/xgboost_model.pkl
       hash: md5
-      md5: 6d9bd4dd8ecd774316358a76539752bf
-      size: 1599
+      md5: bd22de9a4517b2bbe6d35f86507cc6e3
+      size: 347623

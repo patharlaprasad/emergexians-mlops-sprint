@@ -1,0 +1,13 @@
+stages:
+  train:
+    cmd: python scripts/train.py
+    deps:
+      - scripts/train.py
+      - data/processed/cleaned.csv
+      - params.yaml
+    outs:
+      - models/xgboost_model.pkl
+    metrics:
+      - artifacts/metrics.json
+    params:
+      - xgboost.param_grid
