@@ -5,12 +5,7 @@ stages:
       - data/heart_disease.csv
       - scripts/train.py
       - params.yaml
-    params:
-      - xgboost
     outs:
       - models/xgboost_model.pkl
     metrics:
-      - artifacts/metrics.json:
-          cache: false
-    plots:
-      - artifacts/feature_importance.png
+      - artifacts/metrics.json
