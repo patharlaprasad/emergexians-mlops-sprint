@@ -3,46 +3,53 @@ stages:
   train:
     cmd: python scripts/train.py
     deps:
-    - path: data/processed/cleaned.csv
+    - path: data/heart_disease.csv
       hash: md5
-      md5: 38debe3ba1c0f397e8a1e204a885ee4a
-      size: 37934
+      md5: 03628593505841912d0e760b779ccd6b
+      size: 36933
     - path: params.yaml
       hash: md5
-      md5: 5926f833fb93ece4956934347b38e574
-      size: 233
+      md5: 2a1012614655a01ea0c0f6e609a07c86
+      size: 242
     - path: scripts/train.py
       hash: md5
-      md5: 1769971a35d567e8ea6cae8be41573a4
-      size: 6178
+      md5: 8f828005192c2eceb42fa6da19eb746a
+      size: 5996
     params:
       params.yaml:
-        xgboost.param_grid:
-          n_estimators:
-          - 100
-          - 200
-          - 300
-          max_depth:
-          - 3
-          - 5
-          - 7
-          learning_rate:
-          - 0.01
-          - 0.1
-          - 0.2
-          subsample:
-          - 0.8
-          - 1.0
-          colsample_bytree:
-          - 0.8
-          - 1.0
-          reg_alpha:
-          - 0
-          - 0.1
-          reg_lambda:
-          - 1
-          - 2
+        xgboost:
+          param_grid:
+            n_estimators:
+            - 100
+            - 200
+            - 300
+            max_depth:
+            - 3
+            - 5
+            - 7
+            learning_rate:
+            - 0.01
+            - 0.05
+            - 0.1
+            subsample:
+            - 0.8
+            - 1.0
+            colsample_bytree:
+            - 0.8
+            - 1.0
+            reg_alpha:
+            - 0
+            - 0.1
+            - 1
+            reg_lambda:
+            - 1
+            - 1.5
+            - 2
     outs:
+    - path: artifacts/feature_importance.png
+      hash: md5
+      md5: 373eedcb1395efaaa7a51507c21e37a4
+      size: 26970
     - path: artifacts/metrics.json
       hash: md5
       md5: f2a9eb82712bdfd2f21b35dea8c5233c

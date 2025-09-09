@@ -2,12 +2,15 @@ stages:
   train:
     cmd: python scripts/train.py
     deps:
+      - data/heart_disease.csv
       - scripts/train.py
-      - data/processed/cleaned.csv
       - params.yaml
+    params:
+      - xgboost
     outs:
       - models/xgboost_model.pkl
     metrics:
-      - artifacts/metrics.json
-    params:
-      - xgboost.param_grid
+      - artifacts/metrics.json:
+          cache: false
+    plots:
+      - artifacts/feature_importance.png
