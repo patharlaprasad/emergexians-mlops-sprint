@@ -1,0 +1,12 @@
+xgboost:
+  param_grid:
+    n_estimators: [50, 100]
+    max_depth: [3, 5, 7]
+    learning_rate: [0.01, 0.1]
+    subsample: [0.8, 1.0]
+    colsample_bytree: [0.8, 1.0]
+    reg_alpha: [0, 0.1]
+    reg_lambda: [1, 1.5]
+
+# 👇 new field
+dataset_ver: "unknown"
