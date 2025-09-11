@@ -13,6 +13,6 @@ stages:
     metrics:
       - artifacts/metrics.json:
           cache: false
-  plots:
-  - artifacts/metrics.json:
-      cache: false
+    plots:
+  -   artifacts/metrics.json:
+        cache: false
