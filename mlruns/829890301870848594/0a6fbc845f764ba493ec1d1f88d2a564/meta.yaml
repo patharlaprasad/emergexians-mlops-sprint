@@ -1,0 +1,14 @@
+artifact_uri: file:///P:/Emergexians/emergexians-mlops-sprint/mlruns/829890301870848594/0a6fbc845f764ba493ec1d1f88d2a564/artifacts
+end_time: 1757591847776
+entry_point_name: ''
+experiment_id: '829890301870848594'
+lifecycle_stage: active
+run_id: 0a6fbc845f764ba493ec1d1f88d2a564
+run_name: stately-croc-783
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757591828689
+status: 3
+tags: []
+user_id: PrasadS

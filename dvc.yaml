@@ -8,11 +8,6 @@ stages:
     outs:
       - models/xgboost_model.pkl
       - artifacts/feature_importance.png
-      - artifacts/scaler.pkl
-      - artifacts/selector.pkl
     metrics:
       - artifacts/metrics.json:
           cache: false
-    plots:
-  -   artifacts/metrics.json:
-        cache: false

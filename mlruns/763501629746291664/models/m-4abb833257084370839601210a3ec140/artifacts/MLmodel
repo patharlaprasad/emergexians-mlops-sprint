@@ -1,0 +1,22 @@
+artifact_path: file:///P:/Emergexians/emergexians-mlops-sprint/mlruns/763501629746291664/models/m-4abb833257084370839601210a3ec140/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.10
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.1
+mlflow_version: 3.3.2
+model_id: m-4abb833257084370839601210a3ec140
+model_size_bytes: 3203
+model_uuid: m-4abb833257084370839601210a3ec140
+prompts: null
+run_id: d5950e3e9a924c3ea80f1586aec63ad2
+utc_time_created: '2025-09-05 10:23:26.634286'

@@ -1,0 +1,14 @@
+artifact_uri: file:///P:/Emergexians/emergexians-mlops-sprint/mlruns/763501629746291664/b7dedb34eb564bfd95bfa16933540e57/artifacts
+end_time: 1756978435975
+entry_point_name: ''
+experiment_id: '763501629746291664'
+lifecycle_stage: active
+run_id: b7dedb34eb564bfd95bfa16933540e57
+run_name: nosy-hog-570
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1756978429710
+status: 3
+tags: []
+user_id: PrasadS

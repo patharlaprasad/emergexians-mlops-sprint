@@ -1,0 +1,10 @@
+artifact_location: file:///P:/Emergexians/emergexians-mlops-sprint/mlruns/0/models/m-d6111e34a87e4574b215fe2aa2f1a00f/artifacts
+creation_timestamp: 1757094088133
+experiment_id: '0'
+last_updated_timestamp: 1757094091569
+model_id: m-d6111e34a87e4574b215fe2aa2f1a00f
+model_type: null
+name: random_forest
+source_run_id: 198526f6f76147f5b05253485a3d1e45
+status: 2
+status_message: null

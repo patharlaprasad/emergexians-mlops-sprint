@@ -1,0 +1,14 @@
+artifact_uri: file:///P:/Emergexians/emergexians-mlops-sprint/mlruns/763501629746291664/a6258bacb882447084b4f9f85a1ac48a/artifacts
+end_time: 1757066022664
+entry_point_name: ''
+experiment_id: '763501629746291664'
+lifecycle_stage: active
+run_id: a6258bacb882447084b4f9f85a1ac48a
+run_name: upset-tern-261
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757066019337
+status: 3
+tags: []
+user_id: PrasadS

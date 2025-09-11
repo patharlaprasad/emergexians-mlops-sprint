@@ -1,0 +1,6 @@
+artifact_location: file:///P:/Emergexians/emergexians-mlops-sprint/mlruns/829890301870848594
+creation_time: 1757166194175
+experiment_id: '829890301870848594'
+last_update_time: 1757166194175
+lifecycle_stage: active
+name: heart_disease_xgboost

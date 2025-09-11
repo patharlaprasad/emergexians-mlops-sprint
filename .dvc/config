@@ -1,13 +1,4 @@
 [core]
-    remote = dropbox-remote
-['remote "gdrive-remote"']
-    url = gdrive://1E5RvDJONVMLmIMYerwqVZkQv-bhFwIFH
-['remote "myremote"']
-    url = gdrive://1AbCdEfGhIJklMNopQRstuvWxYZ
-    gdrive_use_service_account = false
-    gdrive_acknowledge_abuse = true
-['remote "sprint_remote"']
-    url = gdrive://1E5RvDJONVMLmIMYerwqVZkQv-bhFwIFH
-    gdrive_acknowledge_abuse = true
-['remote "dropbox-remote"']
-    url = C:\Users\PrasadS\Dropbox\Emergexians-Sprint1-DVC
+    remote = emergexianssprint1dvc
+['remote "emergexianssprint1dvc"']
+    url = C:/Users/PrasadS/Dropbox/Emergexians-Sprint1-DVC

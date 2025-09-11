@@ -1,0 +1,14 @@
+artifact_uri: file:///P:/Emergexians/emergexians-mlops-sprint/mlruns/829890301870848594/2237dab0dda246a1afb53d898fb0abbc/artifacts
+end_time: 1757166497656
+entry_point_name: ''
+experiment_id: '829890301870848594'
+lifecycle_stage: active
+run_id: 2237dab0dda246a1afb53d898fb0abbc
+run_name: nosy-stoat-1000
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1757166489114
+status: 4
+tags: []
+user_id: PrasadS

@@ -1,0 +1,10 @@
+artifact_location: file:///P:/Emergexians/emergexians-mlops-sprint/mlruns/763501629746291664/models/m-6af061719f0b4421831a23a2d7130aa8/artifacts
+creation_timestamp: 1757067862054
+experiment_id: '763501629746291664'
+last_updated_timestamp: 1757067865258
+model_id: m-6af061719f0b4421831a23a2d7130aa8
+model_type: null
+name: model
+source_run_id: 1e70d9b5ad9747a9b3b8653128a17128
+status: 2
+status_message: null

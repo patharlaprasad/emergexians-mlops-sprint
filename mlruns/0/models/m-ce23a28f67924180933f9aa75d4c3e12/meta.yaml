@@ -1,0 +1,10 @@
+artifact_location: file:///P:/Emergexians/emergexians-mlops-sprint/mlruns/0/models/m-ce23a28f67924180933f9aa75d4c3e12/artifacts
+creation_timestamp: 1757094079674
+experiment_id: '0'
+last_updated_timestamp: 1757094083670
+model_id: m-ce23a28f67924180933f9aa75d4c3e12
+model_type: null
+name: logistic_regression
+source_run_id: c593d298d32a4540844b453d73446f1d
+status: 2
+status_message: null
