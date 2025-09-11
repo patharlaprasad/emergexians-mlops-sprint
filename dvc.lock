@@ -5,56 +5,34 @@ stages:
     deps:
     - path: data/heart_disease.csv
       hash: md5
-      md5: 03628593505841912d0e760b779ccd6b
-      size: 36933
+      md5: 3eafe0d0dbcd5e593f0b2f8ebd447bfd
+      size: 36906
     - path: params.yaml
       hash: md5
-      md5: 2a1012614655a01ea0c0f6e609a07c86
-      size: 242
+      md5: b8e8d17ad404e9aedde4c598f3fea85f
+      size: 312
     - path: scripts/train.py
       hash: md5
-      md5: 8f828005192c2eceb42fa6da19eb746a
-      size: 5996
-    params:
-      params.yaml:
-        xgboost:
-          param_grid:
-            n_estimators:
-            - 100
-            - 200
-            - 300
-            max_depth:
-            - 3
-            - 5
-            - 7
-            learning_rate:
-            - 0.01
-            - 0.05
-            - 0.1
-            subsample:
-            - 0.8
-            - 1.0
-            colsample_bytree:
-            - 0.8
-            - 1.0
-            reg_alpha:
-            - 0
-            - 0.1
-            - 1
-            reg_lambda:
-            - 1
-            - 1.5
-            - 2
+      md5: 403e6afca209961c4803ff90e93ee358
+      size: 5864
     outs:
     - path: artifacts/feature_importance.png
       hash: md5
-      md5: 373eedcb1395efaaa7a51507c21e37a4
-      size: 26970
+      md5: 0f076ebce5b9f81af1012ae862a75fad
+      size: 27660
     - path: artifacts/metrics.json
       hash: md5
-      md5: f2a9eb82712bdfd2f21b35dea8c5233c
-      size: 124
+      md5: 586cc15e06b725fb7e624a4a823ea5fe
+      size: 101
+    - path: artifacts/scaler.pkl
+      hash: md5
+      md5: 55191ae6a97722f49e14a2fc3c374e4a
+      size: 1375
+    - path: artifacts/selector.pkl
+      hash: md5
+      md5: 2d19202d875e770b691baab5a8888c34
+      size: 687
     - path: models/xgboost_model.pkl
       hash: md5
-      md5: bd22de9a4517b2bbe6d35f86507cc6e3
-      size: 347623
+      md5: 009860ff3a23ce5a20c58dabdfa3c10b
+      size: 114496
